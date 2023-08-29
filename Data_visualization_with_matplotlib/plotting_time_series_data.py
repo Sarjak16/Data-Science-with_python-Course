@@ -79,3 +79,25 @@ ax2 = ax.twinx()
 ax2.plot(climate_change.index, climate_change["relative_temp"], color='red')
 
 plt.show()
+
+
+# Defining a function that plots time-series data...............................
+# Define a function called plot_timeseries that takes as input an Axes object (axes), data (x,y), a string with the name of a color and strings for x- and y-axis labels.
+# Plot y as a function of in the color provided as the input color.
+# Set the x- and y-axis labels using the provided input xlabel and ylabel, setting the y-axis label color using color.
+# Set the y-axis tick parameters using the tick_params method of the Axes object, setting the colors key-word to color.
+
+# Define a function called plot_timeseries
+def plot_timeseries(axes, x, y, color, xlabel, ylabel):
+
+  # Plot the inputs x,y in the provided color
+  axes.plot(x, y, color= color)
+
+  # Set the x-axis label
+  axes.set_xlabel(xlabel)
+
+  # Set the y-axis label
+  axes.set_ylabel(ylabel, color=color)
+
+  # Set the colors tick params for y-axis
+  axes.tick_params('y', colors=color)
