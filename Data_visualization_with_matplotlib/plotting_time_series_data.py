@@ -122,3 +122,12 @@ ax2 = ax.twinx()
 plot_timeseries(ax2, climate_change.index, climate_change["relative_temp"], "red", 'Time (years)', 'Relative temperature (Celsius)')
 
 plt.show()
+
+
+
+#Annotating time series data..............................................................................................................................
+
+
+# Annotating a plot of time-series data
+# Use the ax.plot method to plot the DataFrame index against the relative_temp column.
+# Use the annotate method to add the text '>1 degree' in the location (pd.Timestamp('2015-10-06'), 1).
