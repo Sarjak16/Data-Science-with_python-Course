@@ -16,7 +16,9 @@ ax.set_ylabel("Height (cm)")
 plt.show()
 
 
-
+# Use the ax.errorbar method to add the Seattle data: the "MONTH" column as x values, the "MLY-TAVG-NORMAL" as y values and "MLY-TAVG-STDDEV" as yerr values.
+# Add the Austin data: the "MONTH" column as x values, the "MLY-TAVG-NORMAL" as y values and "MLY-TAVG-STDDEV" as yerr values.
+# Set the y-axis label as "Temperature (Fahrenheit)".
 
 fig, ax = plt.subplots()
 
