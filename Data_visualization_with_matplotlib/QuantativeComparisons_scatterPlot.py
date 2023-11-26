@@ -16,3 +16,9 @@ ax.set_ylabel("Relative temperature (C)")
 
 plt.show()
 
+
+#ENCODING TIME BY COLOUR
+# Using the ax.scatter method add a scatter plot of the "co2" column (x-axis) against the "relative_temp" column.
+# Use the c key-word argument to pass in the index of the DataFrame as input to color each point according to its date.
+# Set the x-axis label to "CO2 (ppm)" and the y-axis label to "Relative temperature (C)".
+
