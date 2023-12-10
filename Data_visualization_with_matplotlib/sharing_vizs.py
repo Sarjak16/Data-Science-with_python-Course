@@ -17,3 +17,20 @@ plt.style.use('Solarize_Light2')
 fig, ax = plt.subplots()
 ax.plot(austin_weather["MONTH"], austin_weather["MLY-TAVG-NORMAL"])
 plt.show()
+
+#Save figures with different sizes....
+# Figure object’s set_size_inches method. This method takes a sequence of two values. The first sets the width and the second sets the height of the figure.
+
+# Here, you will again have a Figure object called fig already provided (you can run plt.show if you want to see its contents). Use the Figure methods set_size_inches and savefig to change its size and save two different versions of this figure.
+
+# Set the figure size as width of 3 inches and height of 5 inches and save it as 'figure_3_5.png' with default resolution.
+
+# Set the figure size to width of 5 inches and height of 3 inches and save it as 'figure_5_3.png' with default settings.Figure object’s set_size_inches method. This method takes a sequence of two values. The first sets the width and the second sets the height of the figure.
+
+# Here, you will again have a Figure object called fig already provided (you can run plt.show if you want to see its contents). Use the Figure methods set_size_inches and savefig to change its size and save two different versions of this figure.
+
+# Set the figure size as width of 3 inches and height of 5 inches and save it as 'figure_3_5.png' with default resolution.
+
+# Set the figure size to width of 5 inches and height of 3 inches and save it as 'figure_5_3.png' with default settings.
+
+
