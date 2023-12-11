@@ -46,8 +46,10 @@ fig.savefig('figure_5_3.png')
 # Saving file sevral times
 Examine the figure by calling the plt.show() function.
  
+ plt.show()
 Save the figure into the file my_figure.png, using the default resolution.
-
+# Save as a PNG file
+fig.savefig('my_figure.png')
 
 
 Save the figure into the file my_figure_300dpi.png and set the resolution to 300 dpi.
